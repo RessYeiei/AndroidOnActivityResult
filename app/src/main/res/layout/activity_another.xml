@@ -25,5 +25,11 @@
             android:id="@+id/rb_pen"/>
 
     </RadioGroup>
+    <TextView
+        android:id="@+id/data_from_main"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="data from main"
+        android:gravity="center"/>
 
 </LinearLayout>

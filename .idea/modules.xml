@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AndroidOnActivityResult.iml" filepath="$PROJECT_DIR$/AndroidOnActivityResult.iml" />
+      <module fileurl="file://C:\Users\RedZ\AndroidStudioProjects\AndroidImplicitIntent\AndroidOnActivityResult\AndroidOnActivityResult.iml" filepath="C:\Users\RedZ\AndroidStudioProjects\AndroidImplicitIntent\AndroidOnActivityResult\AndroidOnActivityResult.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\RedZ\AndroidStudioProjects\AndroidImplicitIntent\AndroidOnActivityResult\app\app.iml" filepath="C:\Users\RedZ\AndroidStudioProjects\AndroidImplicitIntent\AndroidOnActivityResult\app\app.iml" />
     </modules>
   </component>
 </project>

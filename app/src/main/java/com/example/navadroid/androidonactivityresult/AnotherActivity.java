@@ -3,9 +3,14 @@ package com.example.navadroid.androidonactivityresult;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.RadioButton;
+import android.widget.TextView;
+import android.widget.Toast;
 
 public class AnotherActivity extends AppCompatActivity {
+    private String val1;
+    private TextView data_main;
 
     private static final int RESULT_OK = 0;
 
@@ -13,6 +18,12 @@ public class AnotherActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_another);
+        data_main = (TextView)findViewById(R.id.data_from_main);
+        val1 = getIntent().getStringExtra("Value1");
+        data_main.setText(val1);
+
+        Log.d("data -------",val1);
+
     }
 
     @Override
@@ -28,4 +39,6 @@ public class AnotherActivity extends AppCompatActivity {
         setResult(RESULT_OK, intent); //
         super.finish();
     }
+
+
 }
